@@ -112,3 +112,7 @@ C:\Users\shand\source\repos\HotelsApi\HotelsApi\obj\Debug\net8.0\refint\HotelsAp
 C:\Users\shand\source\repos\HotelsApi\HotelsApi\obj\Debug\net8.0\HotelsApi.pdb
 C:\Users\shand\source\repos\HotelsApi\HotelsApi\obj\Debug\net8.0\HotelsApi.genruntimeconfig.cache
 C:\Users\shand\source\repos\HotelsApi\HotelsApi\obj\Debug\net8.0\ref\HotelsApi.dll
+C:\Users\shand\source\repos\HotelsApi\HotelsApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\shand\source\repos\HotelsApi\HotelsApi\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\shand\source\repos\HotelsApi\HotelsApi\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\shand\source\repos\HotelsApi\HotelsApi\obj\Debug\net8.0\HotelsApi.sourcelink.json

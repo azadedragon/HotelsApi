@@ -1,81 +1,61 @@
 ﻿using HotelsApi.Context;
+using HotelsApi.Dtos;
 using HotelsApi.Entities;
+using HotelsApi.Services;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
 
 namespace HotelsApi.Controllers
 {
     [ApiController]
     [Route("Country")]
-
     public class CountryController : ControllerBase
     {
-        private readonly DatabaseContext databaseContext;
-        public CountryController(DatabaseContext databaseContext)
+        private readonly ICountryService countryService;
+
+        public CountryController(ICountryService countryService)
         {
-            this.databaseContext = databaseContext;
+            this.countryService = countryService;
         }
 
         [HttpGet()]
-        public async Task<List<Country>> GetAllCountry()
+        public async Task<IActionResult> GetAllCountry()
         {
-            var Country = await databaseContext.Countries.ToListAsync();
-
-            return Country;
+            var countrys = await countryService.GetAllCountry();
+            return Ok(countrys);
         }
 
         [HttpGet("{id}")]
-        public async Task<Country?> GetCountryById([FromRoute] int id)
+        public async Task<IActionResult> GetCountryById([FromRoute] int id)
         {
-            var Country = await databaseContext.Countries.FirstOrDefaultAsync(x => x.CountryId == id);
+            var country = await countryService.GetCountryById(id);
+            if (country == null)
+                return NotFound();
 
-            return Country;
-        }
-
-        [HttpPost()]
-        public async Task<Country> CreateCountry([FromBody] Country country)
-        {
-            databaseContext.Countries.Add(country);
-            await databaseContext.SaveChangesAsync();
-
-            return country;
+            return Ok(country);
         }
 
         [HttpPut("{id}")]
-        public async Task<Country?> UpdateCountry([FromRoute] int id, [FromBody] Country country)
+        public async Task<IActionResult> UpdateCountry([FromRoute] int id, [FromBody] UpdateCountry country)
         {
+            var updateCountryResult = await countryService.UpdateCountry(id, country);
 
-            var countryRecord = await databaseContext.Countries.FirstOrDefaultAsync(x => x.CountryId == id);
+            if (updateCountryResult == null)
+                return BadRequest();
 
-            if (countryRecord == null)
-            {
-                return null;
-            }
-
-            countryRecord.CountryCode = country.CountryCode;
-            countryRecord.CountryName = country.CountryName;
-         
-            await databaseContext.SaveChangesAsync();
-
-            return countryRecord;
+            return Ok(updateCountryResult);
         }
 
         [HttpDelete("{id}")]
-        public async Task<bool> DeleteCountry([FromRoute] int id)
+        public async Task<IActionResult> DeleteCountry([FromRoute] int id)
         {
-            var countryRecord = await databaseContext.Countries.FirstOrDefaultAsync(x => x.CountryId == id);
+            var deleteResult = await countryService.DeleteCountry(id);
+            if (deleteResult == false)
+                return BadRequest();
 
-            if (countryRecord == null)
-            {
-                return false;
-            }
-
-            databaseContext.Countries.Remove(countryRecord);
-
-            await databaseContext.SaveChangesAsync();
-
-            return true;
-
+            return Ok(deleteResult);
         }
     }
 }

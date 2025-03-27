@@ -12,33 +12,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Barangay"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Barangay"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Barangay"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -50,41 +24,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Barangay"
+                "$ref": "#/components/schemas/CreateBarangay"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Barangay"
+                "$ref": "#/components/schemas/CreateBarangay"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Barangay"
+                "$ref": "#/components/schemas/CreateBarangay"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -107,24 +64,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -147,41 +87,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Barangay"
+                "$ref": "#/components/schemas/UpdateBarangay"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Barangay"
+                "$ref": "#/components/schemas/UpdateBarangay"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Barangay"
+                "$ref": "#/components/schemas/UpdateBarangay"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Barangay"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -202,24 +125,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -231,33 +137,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/City"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/City"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/City"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -269,41 +149,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/City"
+                "$ref": "#/components/schemas/CreateCity"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/City"
+                "$ref": "#/components/schemas/CreateCity"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/City"
+                "$ref": "#/components/schemas/CreateCity"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -326,24 +189,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -366,41 +212,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/City"
+                "$ref": "#/components/schemas/UpdateCity"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/City"
+                "$ref": "#/components/schemas/UpdateCity"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/City"
+                "$ref": "#/components/schemas/UpdateCity"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/City"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -421,24 +250,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -450,79 +262,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Country"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Country"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Country"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Country"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Country"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Country"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Country"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -545,24 +285,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -585,41 +308,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Country"
+                "$ref": "#/components/schemas/UpdateCountry"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Country"
+                "$ref": "#/components/schemas/UpdateCountry"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Country"
+                "$ref": "#/components/schemas/UpdateCountry"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Country"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -640,24 +346,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -669,33 +358,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Hotel"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Hotel"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Hotel"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -707,41 +370,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Hotel"
+                "$ref": "#/components/schemas/CreateHotel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Hotel"
+                "$ref": "#/components/schemas/CreateHotel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Hotel"
+                "$ref": "#/components/schemas/CreateHotel"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -764,24 +410,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -804,41 +433,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Hotel"
+                "$ref": "#/components/schemas/UpdateHotel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Hotel"
+                "$ref": "#/components/schemas/UpdateHotel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Hotel"
+                "$ref": "#/components/schemas/UpdateHotel"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Hotel"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -859,24 +471,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -888,33 +483,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/State"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/State"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/State"
-                  }
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -926,41 +495,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/State"
+                "$ref": "#/components/schemas/CreateState"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/State"
+                "$ref": "#/components/schemas/CreateState"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/State"
+                "$ref": "#/components/schemas/CreateState"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       }
@@ -983,24 +535,7 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -1023,41 +558,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/State"
+                "$ref": "#/components/schemas/UpdateState"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/State"
+                "$ref": "#/components/schemas/UpdateState"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/State"
+                "$ref": "#/components/schemas/UpdateState"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/State"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -1078,24 +596,132 @@
         ],
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Transaction": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Transaction"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateTransaction"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateTransaction"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateTransaction"
               }
             }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Transaction/{id}": {
+      "get": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTransaction"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTransaction"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateTransaction"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Transaction"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
@@ -1103,31 +729,27 @@
   },
   "components": {
     "schemas": {
-      "Barangay": {
+      "CreateBarangay": {
         "type": "object",
         "properties": {
-          "barangayId": {
-            "type": "integer",
-            "format": "int32"
+          "postalCode": {
+            "type": "string",
+            "nullable": true
           },
           "barangayName": {
             "type": "string",
             "nullable": true
           },
-          "postalCode": {
-            "type": "string",
-            "nullable": true
+          "cityId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
       },
-      "City": {
+      "CreateCity": {
         "type": "object",
         "properties": {
-          "cityId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "cityCode": {
             "type": "string",
             "nullable": true
@@ -1135,35 +757,17 @@
           "cityName": {
             "type": "string",
             "nullable": true
+          },
+          "stateId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
       },
-      "Country": {
+      "CreateHotel": {
         "type": "object",
         "properties": {
-          "countryId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "countryCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "countryName": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Hotel": {
-        "type": "object",
-        "properties": {
-          "hotelId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "hotelCode": {
             "type": "string",
             "nullable": true
@@ -1175,24 +779,218 @@
           "hotelDescription": {
             "type": "string",
             "nullable": true
+          },
+          "barangayId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
       },
-      "State": {
+      "CreateState": {
         "type": "object",
         "properties": {
-          "stateId": {
-            "type": "integer",
-            "format": "int32"
+          "stateName": {
+            "type": "string",
+            "nullable": true
           },
           "stateCode": {
             "type": "string",
             "nullable": true
           },
+          "countryId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateTransaction": {
+        "type": "object",
+        "properties": {
+          "hotelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hotelName": {
+            "type": "string",
+            "nullable": true
+          },
+          "hotelCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateFrom": {
+            "type": "string",
+            "format": "date"
+          },
+          "dateTo": {
+            "type": "string",
+            "format": "date"
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateBarangay": {
+        "type": "object",
+        "properties": {
+          "postalCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "barangayName": {
+            "type": "string",
+            "nullable": true
+          },
+          "cityId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "barangayId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateCity": {
+        "type": "object",
+        "properties": {
+          "cityCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "cityName": {
+            "type": "string",
+            "nullable": true
+          },
+          "stateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cityId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateCountry": {
+        "type": "object",
+        "properties": {
+          "countryCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateHotel": {
+        "type": "object",
+        "properties": {
+          "hotelCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "hotelName": {
+            "type": "string",
+            "nullable": true
+          },
+          "hotelDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "barangayId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hotelId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateState": {
+        "type": "object",
+        "properties": {
           "stateName": {
             "type": "string",
             "nullable": true
+          },
+          "stateCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stateId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateTransaction": {
+        "type": "object",
+        "properties": {
+          "hotelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hotelName": {
+            "type": "string",
+            "nullable": true
+          },
+          "hotelCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "dateFrom": {
+            "type": "string",
+            "format": "date"
+          },
+          "dateTo": {
+            "type": "string",
+            "format": "date"
+          },
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "transactionId": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
